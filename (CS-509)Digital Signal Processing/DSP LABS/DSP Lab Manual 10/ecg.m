@@ -1,0 +1,1 @@
+signalAnalyzer(randn(1000,1),'SampleRate',1e3) 
