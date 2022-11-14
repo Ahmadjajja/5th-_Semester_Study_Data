@@ -1,0 +1,11 @@
+Chapter: 1-4
+Marks: 12
+MCQS/Blanks: 6
+Short Questions: 6
+
+TOPICS:
+
+CH-1 => brute-force
+CH-2 => asymptotic notation
+CH-3 => divide and conquer rule
+CH-4 => Heap and Quick Sort
