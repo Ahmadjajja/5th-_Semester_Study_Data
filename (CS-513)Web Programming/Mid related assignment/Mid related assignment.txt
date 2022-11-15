@@ -1,0 +1,191 @@
+=========================================20 mcqs and 10 short questions ======================================
+
+Name : Ahmad Sultan
+AG-No : 2020-ag-6374
+
+
+
+
+					10 Short Questions
+
+1) What are the different versions of HTML?
+2) What is the history of CSS?
+3) What is the history of HTML?
+4) What are the position properties in CSS?
+5) What are the hyper links in HTML?
+6) What is DIV in HTML?
+7) In how many ways we can manage responsiveness with CSS?
+8) What is Grid System in Bootstrap?
+9) What are the breakpoints in Bootstrap?
+10) What are utilities classes in bootstrap?
+
+
+					20 MCQS
+
+1)Which format usually works best for photos ?
+
+a) JPG b) HTML c) GIF
+Ans: a
+
+2) <a> and </a> are the tags used for ?
+
+a) Audio-voiced text
+b) Adding links to your page
+c) Aligning text
+
+Ans: b
+
+3) Use<td> and </td>to add what to your tables?
+
+a) columns
+b) rows
+c) steps
+
+Ans: a
+
+
+
+4) To specify a font for your whole page add which tag ?
+
+a) <targetfont>
+b) <defaultfont>
+c)<basefont>
+
+Ans: c
+
+  
+
+5) Hex-colors are the only way to define colors on the web?
+
+a) True for Internet Explorer, False for Netscape browsers 
+b) False, colors can also be specified with names and CSS
+c) True, computer screens only understands hexadecimal values.
+
+Ans: b
+
+ 
+
+6) Is it a common myth that meta tags seriously improve search engine rankings ?
+
+a) no 
+b) only in Nepal 
+c) yes
+
+Ans: c
+
+ 
+
+7) Choose the correct HTML tag to make a text bold
+a) <bold> b) <b> Ans: b
+
+ 
+
+8) If the background image is smaller than the screen, what will happen ?
+
+a) It will be stretched 
+b) It will leave a blank space at the bottom of your page 
+c) It will be repeated
+
+Ans: c
+10) A stricter type of HTML document is known as ______?
+
+a) DHTML
+
+b) XHTML
+
+c) XML
+
+d) HTML
+
+Ans: b
+
+11) What is CSS stands for?
+
+a) Cascading Style Sheets
+b) Cascade Style Sheet
+c) Color Style Sheets
+d) Color Style Sheet
+Ans: a
+
+12) Inline styles are written within the _____ attribute.
+
+a) style
+b) css
+c) stylesheet
+d) Both A. and B.
+Answer: A) style
+
+
+13) CSS comments are placed within the ______.
+
+a) //
+b) /* and */
+c) <* and *>
+d) <! And !>
+Ans: b
+
+
+14) Which property is used to define the font of the element's text?
+
+a) font
+b) font-family
+c) font-style
+d) All of the above
+Ans: b
+
+
+15) What are the valid values of text-align property?
+
+a) left, middle, right
+b) left, center, right
+c) left, center, right, justify
+d) left, middle, right, justify
+Ans: c
+
+
+16) Which CSS property is used to specify the space between the characters in a text?
+
+a) text-space
+b) letter-space
+c) letter-spacing
+d) letter-distance
+Ans: c
+
+
+17) In how many ways can CSS be added to HTML?
+
+a) One
+b) Two
+c) Three
+d) Infinite
+Ans: c
+
+
+18) What is the correct syntax of border property in CSS?
+
+a) border: border-width border-style border-color
+b) border: border-color border-width border-style
+c) border: border-style border-width border-color
+d) All of the above
+Ans: a
+
+19) Which property is used to define the background color?
+
+a) bgcolor
+b) bg-color
+c) background
+d) background-color
+Ans: d
+
+
+20) Which CSS property adds shadow to text?
+
+a) content-shadow
+b) text-shadow
+c) word-shadow
+d) text-outline
+Ans: b
+
+
+
+
