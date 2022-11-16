@@ -2,6 +2,9 @@
 #include <conio.h>
 #include <string.h>
 
+/**
+ * The function takes a pointer to an integer, and sets the value of the integer to zero
+ */
 int main()
 {
     // int number;
@@ -67,8 +70,8 @@ int main()
 
 
 
-    int *yPtr, y = 5;
-    yPtr = &y;
+    // int *yPtr, y = 5;
+    // yPtr = &y;
 
     // printf("\n *yPtr => %d",*yPtr);
     // printf("\n y => %d",y);
@@ -76,7 +79,7 @@ int main()
     // *yPtr = 7;
 
     // printf("\n *yPtr => %d",*yPtr);
-    printf("\n y => %d",*&y);
+    // printf("\n y => %d",y);
 
 
 
@@ -88,6 +91,7 @@ int main()
 // //Very Tricky and Interesting Example
 
 // void MyPrint(char *txt);
+// void Double( int *number );
 // void main()
 // {
 //     char *msg = NULL;
@@ -97,6 +101,10 @@ int main()
 //     printf("\n%c",*msg);  // prints actual value
 
 //     MyPrint(msg);
+
+//     int *numPtr,num  = 2;
+//     numPtr = &num;
+//     Double(numPtr);
 // }
 // void MyPrint(char *txt)
 // {
@@ -104,4 +112,10 @@ int main()
 //         printf("Invalid parameters: NULL pointer received\n");
 //     else
 //         printf("\n%c\n", *txt);   // prints actual value
+// }
+
+// void Double( int *number )
+// {
+// *number = 2 * ( *number );
+// printf("number = %d ", *number);
 // }
