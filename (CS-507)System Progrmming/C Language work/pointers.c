@@ -2,102 +2,121 @@
 #include <conio.h>
 #include <string.h>
 
-/**
- * The function takes a pointer to an integer, and sets the value of the integer to zero
- */
-int main()
-{
-    // int number;
-    // int *ptr_to_num;
-    // number = 23;
-    // ptr_to_num = &number;                 //ampersand(address Operator) & stores address of number in variable ptr_to_num pointer
-    // printf("Value is %d \n", (*ptr_to_num));
-    // printf("Value is %d \n", (number));
+// /**
+//  * The function takes a pointer to an integer, and sets the value of the integer to zero
+//  */
+// int main()
+// {
 
-    // int number;                     // Very interesting example of pointers
-    // int *p1, *p2;
-    // // printf("%d", &number);
-    // p1 = &number;   //will store address of number
-    // number = 23;    // will store value in number variable and address of that variable will same i think   // note carefully!
-    // p2 = &number;   // will store address of number
-    // printf(" *p1 = %d *p2 = %d ", *p1, *p2);
 
-    // Pointers and Arrays
+//     // *
+//     // int *ptr;
 
-    // char str[32];
-    // char *ptr;
-    // //i don't understand below lines
-    // ptr = str;                           // stores starting address of array
-    // printf("%d",&str);
-    // printf("\n");
-    // printf("%d",ptr);
-    // // strcpy(str, "test");
-    // // strcpy(ptr, "test"); /* does the same as above */
+//     // &
 
-    // Basic Pointer and Array concept clear
-    //  Very important example
 
-    // int table[4];
-    // int *ptr;
-    // ptr = table;     // confusion  // stores starting address of array
-    // table[1] = 94;   // confusion
-    // *(ptr + 1) = 94; // confusion
-    // printf("ptr => %d ,,, table[0] => %d ,,,  table => %d",&ptr, &table[0], &table);
-    // printf("\n");
-    // printf("address of starting index of array => %d", table);
-    // printf("\n");
-    // printf("address of starting index of array in ptr => %d", ptr);
-    // printf("\n");
-    // printf("value stores at index 4 in table array => %d", table[1]);
-    // printf("\n");
-    // printf("getting value stores at index 4 in array using ptr => %d", (*(ptr + 1)));
-    // printf("\n");
-    // printf("4th index address => %d", &table[1]);
-    // printf("\n");
-    // printf("4th index address using ptr =>  %d", ((ptr + 1)));
 
-    // Below code is Very Tricky
 
-    // char str[] = "Test";
-    // char *p;
-    // int i;
-    // for (p = str, i = 0; *p != '\0'; p++, i++)
-    // printf("\n The length of the string is %d and value at this index is %d ", i,*p);
 
-    // // printf("\n%d", ('\0' == 0));   // output 1 means condition is true
+//     // int number;
+//     // int *ptr_to_num; 
+//     // number = 23;
+//     // ptr_to_num = &number;                 //ampersand(address Operator) & stores address of number in variable ptr_to_num pointer
+//     // printf("Value is %d \n", *(ptr_to_num));
+//     // printf("Value is %d \n", *(&number));
 
-    // NULL pointer
+//     // int number;                     // Very interesting example of pointers
+//     // int *p1, *p2;
+//     // // printf("%d", &number);
+//     // p1 = &number;   //will store address of number    
+//     // number = 23;    // will store value in number variable and address of that variable will same i think   // note carefully!
+//     // p2 = &number;   // will store address of number
+//     // printf(" *p1 = %d *p2 = %d ", *p1, *p2);
 
-    // int *yPtr, y = 5;
-    // yPtr = &y;
+//     // Pointers and Arrays
 
-    // printf("\n *yPtr => %d",*yPtr);
-    // printf("\n y => %d",y);
+//     // char str[32];
+//     // int x;
+//     // char *ptr;
+//     // //i don't understand below lines
+//     // // printf("%d\n", str);
+//     // // printf("%d\n", &str);
+//     // // printf("%d\n", x);
+//     // // printf("%d\n", &x);
+//     // ptr = str;                           // stores starting address of array
+//     // printf("%d",&str);
+//     // printf("\n");
+//     // printf("%d",ptr);
+//     // strcpy(str, "test");
+//     // strcpy(ptr, "test"); /* does the same as above */
 
-    // *yPtr = 7;
+    
+//     // // printf("%s", *ptr)
 
-    // printf("\n *yPtr => %d",*yPtr);
-    // printf("\n y => %d",y);
+//     // // Basic Pointer and Array concept clear
+//     // //  Very important example
 
-    double myArray[10];
-    printf("%d", sizeof(myArray));
+//     // int table[4];
+//     // int *ptr;
+//     // ptr = table;     // confusion  // stores starting address of array
+//     // table[1] = 94;   // confusion
+//     // *(ptr + 1) = 95; // confusion
+//     // printf("ptr => %d ,,, table[0] => %d ,,,  table => %d",ptr, &table[0], &table);
+//     // printf("\n");
+//     // printf("address of starting index of array => %d", table);
+//     // printf("\n");
+//     // printf("address of starting index of array in ptr => %d", ptr);
+//     // printf("\n");
+//     // printf("value stores at index 4 in table array => %d", table[1]);  //95
+//     // printf("\n");
+//     // printf("getting value stores at index 4 in array using ptr => %d", (*(ptr + 1)));  //95
+//     // printf("\n");
+//     // printf("4th index address => %d", &table[1]);
+//     // printf("\n");
+//     // printf("4th index address using ptr =>  %d", ((ptr )));
 
-    return 0; /* indicate that program ended successfully */
-}
+//     // // Below code is Very Tricky
+
+//     // char str[] = "Test";
+//     // char *p;
+//     // int i;
+//     // for (p = str, i = 0; *p != '\0'; p++, i++)
+//     // printf("\n The length of the string is %d and value at this index is %c ", i,*p);
+
+//     // printf("\n%d", ('\0' == 0));   // output 1 means condition is true
+
+//     // NULL pointer
+
+//     // int *yPtr, y = 5;
+//     // yPtr = &y;
+
+//     // printf("\n *yPtr => %d",*yPtr);   //5
+//     // printf("\n y => %d",y);  // 5
+
+//     // *yPtr = 7;     
+
+//     // printf("\n *yPtr => %d",*yPtr);  //7
+//     // printf("\n y => %d",y);  // 7
+
+//     // double myArray[10];     
+//     // printf("%d", sizeof(myArray));
+
+//     return 0; /* indicate that program ended successfully */
+// }
 
 // //Very Tricky and Interesting Example
 
-// void MyPrint(char *txt);
+// void MyPrint(char *txt);    // function declaration
 // void Double( int *number );
-// void main()
+// void main()        
 // {
-//     char *msg = NULL;
-//     char x = 'A';
-//     msg = &x;
-//     printf("%c",msg);   // prints address
-//     printf("\n%c",*msg);  // prints actual value
+//     char *msg = NULL;       //
+//     char x = 'A';   
+//     // msg = &x;  
+//     // printf("msg = %c \n",msg);   // prints address
+//     printf("*msg = %c \n",msg);  // prints actual value
 
-//     MyPrint(msg);
+//     MyPrint(msg);   //function call     // msg       is argument
 
 //     int *numPtr,num  = 2;
 //     numPtr = &num;
@@ -108,10 +127,10 @@ int main()
 //     if (txt == NULL)
 //         printf("Invalid parameters: NULL pointer received\n");
 //     else
-//         printf("\n%c\n", *txt);   // prints actual value
+//         printf("\n*txt in MyPrint function = %c\n", *txt);   // prints actual value
 // }
 
-// void Double( int *number )
+// void Double( int *number )   // definition    // parameters
 // {
 // *number = 2 * ( *number );
 // printf("number = %d ", *number);
