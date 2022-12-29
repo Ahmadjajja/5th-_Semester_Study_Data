@@ -1,0 +1,4 @@
+paper pattern : define the following (13 definations),
+Number-system, pipelining, computer arithmatics,
+mcqs ( 5 marks), assembly code , project ( 10 marks ardiuno based),
+logic gates (basics). performance metrics. 120 minutes time
